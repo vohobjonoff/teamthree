@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+:root{
+    --border: 1px solid ;
+    --font-family: 'Mulish', sans-serif;
+}
+header{
+    width: 1300px;
+    height: 670px;
+    font-family: var(--font-family);
+    margin: 0px auto;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    align-items: center;
+}
+.logo{
+    width: 30%;
+    height: 100%;
+}
+.logo>img{
+    padding-left: 120px;
+    padding-top: 25px;
+}
+.navleft{
+    width: 70%;
+    height: 100%;
+}
+.nav-list{
+    display: flex;
+    width: 100%;
+    margin-top: 0px;
+    height: 100px;
+    list-style: none;
+}
+.item{
+    padding-top: 35px;
+    padding-left: 350px;
+}
+.items{
+    padding-top: 35px;
+    padding-left: 25px;
+    opacity: 60%;
+}
+.hero{
+    display: flex;
+    width: 100%;
+    height: 85%;
+    font-family: var(--font-family);
+    justify-content: center;
+}
+.hero-left{
+    width: 445px;
+    height: 348px;
+    margin: auto 0;
+}
+.hero-left>h1{
+    font-size: 48px;
+}
+.hero-left>button{
+    width: 200px;
+    height: 60px;
+    background-color: #458FF6;
+    border-radius: 55px;
+    border: 1px solid  #458FF6;
+    color: white;
+}
+.hero-right{
+    width: 693px;
+    height: 570px;
+}
+.hero-right>img{
+    width: 100%;
+    height: 100%;
+}
