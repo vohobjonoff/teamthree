@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+footer {
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+}
+.container {
+  max-width: 1300px;
+  height: 430px;
+  margin: 0 auto;
+  padding: 100px 150px;
+  display: flex;
+}
+.footer-text {
+    width: 40%;
+    height: 100%;
+}
+.footer-text p {
+    margin: 15px 0;
+    line-height: 28px;
+}
+.footer-list {
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
+.list {
+    margin: 0 80px;
+}
+.item {
+    margin: 20px 0;
+}
