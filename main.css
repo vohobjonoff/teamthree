@@ -1,0 +1,24 @@
+.container {
+    max-width: 1300px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+}
+* {
+    font-family: sans-serif;
+}
+.leading-item{
+    padding: 100px;
+    word-spacing: 3px;
+    line-height: 23px;
+}
+.leading-title{
+    color: #7D7987;
+}
+.link{
+    text-decoration: none;
+    color: #458FF6;
+    border: 1px solid #458FF6;
+    border-radius: 55px;
+    padding: 10px 20px;
+}
