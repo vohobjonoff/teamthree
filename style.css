@@ -20,7 +20,7 @@ nav{
     height: 100%;
 }
 .logo>img{
-    padding-left: 120px;
+    padding-left: 80px;
     padding-top: 25px;
 }
 .navleft{
@@ -61,6 +61,7 @@ nav{
 .hero-left>button{
     width: 200px;
     height: 60px;
+    margin-top: 30px;
     background-color: #458FF6;
     border-radius: 55px;
     border: 1px solid  #458FF6;
