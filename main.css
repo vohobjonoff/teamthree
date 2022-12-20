@@ -1,0 +1,13 @@
+.container{
+    width: 1300px;
+    height: 700px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    padding: 100px;
+}
